@@ -26,3 +26,8 @@ VITE_API_KEY="YOUR API key from https://api.currencybeacon.com"
 ```bash
 npm run dev
 ```
+
+## 🌐 Live Demo
+
+Check out the live version here: [Currency Converter Live](https://currency-converter-kojhl50ju-yuliia-bazenkos-projects.vercel.app)
+
