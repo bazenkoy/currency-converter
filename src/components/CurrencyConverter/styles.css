@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.currency-converter {
+  display: flex;
+  gap: 32px;
+  max-width: 100%;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding-top: 16px;
+}
+
+.currency-converter__block {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1 1 0;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+.conversion-result {
+  display: flex;
+  justify-content: center;
+}
+
+.conversion-result h3 {
+  margin: 4px 0;
+}
+
+.amount-value {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+@media (max-width: 500px) {
+  .currency-converter {
+    flex-direction: column;
+  }
+}
